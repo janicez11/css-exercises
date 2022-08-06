@@ -20,32 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 15px;
   display: flex;
-  
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.buttons {
-  display: flex;
-  gap: 5px;
+  gap: 16px;
+  padding: 16px;
 }
 
 .header {
-  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
 
 .icon {
   color: royalblue;
@@ -58,8 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: none;
-  margin-right: 15px;
+  flex-shrink: 0;
 }
 
 .close-button {
